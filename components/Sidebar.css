@@ -3,7 +3,7 @@ body {
 }
 
 .sidebar {
-    width: 30px;
+    width: 50px;
     height: 100vh; 
     background-color: #ffffff; 
     color: #34495e; 
@@ -28,10 +28,13 @@ body {
 
 .book-open, .user-group, .graduation-cap, .box-archive, .gear {
     margin-top: 30px;
+    font-size: 20px !important;
+    display: inline-block;
 }
 
 .book-open, .bars, .house, .user-group, .graduation-cap, .calendar {
-    font-size: 10px !important;
+    font-size: 20px !important;
     cursor: pointer;
+    display: inline-block;
 }
 

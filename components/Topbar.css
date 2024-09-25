@@ -2,11 +2,11 @@
 
 .topbar-container {
     display: flex;
-    justify-content: space-between;  /* Mantém os elementos nas extremidades */
+    justify-content: space-between;  
     align-items: center;
     padding: 10px;
     background-color: #fff;
-    margin-left: -100px; /* Tenha cuidado ao usar margens negativas */
+    margin-left: -100px; 
 }
 
 /* Logo e título na esquerda */
@@ -32,13 +32,13 @@
 
 /* Estilo do ícone */
 .icons {
-    margin-left: auto;  /* Move o ícone para o lado direito */
+    margin-left: auto;  
     display: flex;
-    align-items: center; /* Centraliza o ícone verticalmente */
+    align-items: center; 
 }
 
 .right-content .plus-icon {
-    font-size: 24px;  /* Tamanho do ícone */
-    cursor: pointer;  /* Torna o ícone clicável */
-    color: gray;      /* Cor do ícone */
+    font-size: 24px;  
+    cursor: pointer;  
+    color: gray;      
 }

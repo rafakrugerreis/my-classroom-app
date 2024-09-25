@@ -1,11 +1,11 @@
-import './Topbar.css';  // Certifique-se de que o caminho está correto
+import './Topbar.css';  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 function TopBar() {
   return (
-    <div className='topbar-container'>  {/* Contêiner principal */}
-      <div className='left-content'>  {/* Subdivisão para a logo e o título */}
+    <div className='topbar-container'>  
+      <div className='left-content'>  
         <img 
           src="/logo.png"  
           alt="Logo" 
@@ -13,7 +13,7 @@ function TopBar() {
         />
         <h1 className='titulo'>Google Classroom</h1>
       </div>
-      <div className='right-content'>  {/* Ícone à direita */}
+      <div className='right-content'>  
         <FontAwesomeIcon icon={faPlus} className='plus-icon' />
       </div>
     </div>
