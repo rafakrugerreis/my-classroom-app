@@ -1,7 +1,7 @@
 
-## Instruções para rodar a aplicação
+# Instruções para rodar a aplicação
 
-# Comando para rodar 
+## Comando para rodar 
 
 Front-end -> npm run dev
 <br>
