@@ -1,6 +1,6 @@
 import './Topbar.css';  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faUser } from '@fortawesome/free-solid-svg-icons';
 
 function TopBar() {
   return (
@@ -15,6 +15,7 @@ function TopBar() {
       </div>
       <div className='right-content'>  
         <FontAwesomeIcon icon={faPlus} className='plus-icon' />
+        <FontAwesomeIcon icon={faUser} className='user-icon' />
       </div>
     </div>
   );

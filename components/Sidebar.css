@@ -38,3 +38,11 @@ body {
     display: inline-block;
 }
 
+.calendar, .box-archive, .gear, .bars {
+    margin-left: 2px;
+}
+
+.bars {
+    margin-top: 7px;
+}
+
