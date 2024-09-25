@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
+.topbar-container {
+    display: flex;
+    justify-content: space-between;  /* Mantém os elementos nas extremidades */
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: -100px; /* Tenha cuidado ao usar margens negativas */
+}
+
+/* Logo e título na esquerda */
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo da logo */
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Estilo do título */
+.titulo {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+}
+
+/* Estilo do ícone */
+.icons {
+    margin-left: auto;  /* Move o ícone para o lado direito */
+    display: flex;
+    align-items: center; /* Centraliza o ícone verticalmente */
+}
+
+.right-content .plus-icon {
+    font-size: 24px;  /* Tamanho do ícone */
+    cursor: pointer;  /* Torna o ícone clicável */
+    color: gray;      /* Cor do ícone */
+}

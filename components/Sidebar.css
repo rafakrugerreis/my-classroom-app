@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+}
+
+.sidebar {
+    width: 30px;
+    height: 100vh; 
+    background-color: #ffffff; 
+    color: #34495e; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar-header {
+    margin-bottom: 50px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.house {
+    margin-bottom: 30px;
+}
+
+.book-open, .user-group, .graduation-cap, .box-archive, .gear {
+    margin-top: 30px;
+}
+
+.book-open, .bars, .house, .user-group, .graduation-cap, .calendar {
+    font-size: 10px !important;
+    cursor: pointer;
+}
+
